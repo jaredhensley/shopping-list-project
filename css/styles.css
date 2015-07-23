@@ -67,14 +67,14 @@ ul > li > span {
 
 }
 
-
-i.fa.fa-check-square-o.fa-2x {
+ i.fa.fa-check-square-o.fa-2x {
 	display: none;
-}
+} 
 
-li.strikethrough {
+
+.strikethrough {
 	text-decoration: line-through;
-
+	
 }
 
 
