@@ -18,14 +18,16 @@ $(document).ready(function() {
       });
 
 
-			$('i.fa.fa-trash-o.trashspace.fa-2x').on('click', function () {
+			$('i.trashcan').on('click', function () {
 				$(this).closest("li").remove();
 			});
 
 			$('button').on('click', function(event) {
 				event.preventDefault();
+				var checkbox = '<i class="fa fa-square-o fa-2x"></i>';
+				var trashcan = ' <i class="fa fa-trash-o trashspace fa-2x"></i>';
 				var input = $("input[name='item_name']").val();
-				$('ul').append('<li>' + input + '<span>' + '<i class="fa fa-square-o fa-2x"></i>' + ' <i class="fa fa-trash-o trashspace fa-2x"></i>' + '</span>' + '</li>');
+				$('ul').append('<li>' + input + '<span>' + checkbox + trashcan + '</li>');
 
 			});
 
