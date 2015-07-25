@@ -18,12 +18,21 @@ $(document).ready(function() {
       });
 
 
-	$('i.fa.fa-trash-o.trashspace.fa-2x').on('click', function () {
-		$(this).closest("li").remove();
-	});
+			$('i.fa.fa-trash-o.trashspace.fa-2x').on('click', function () {
+				$(this).closest("li").remove();
+			});
+
+			$('button').on('click', function() {
+
+				var input = $("input[name='item_name']").val();
+				$('ul').append('<li>' + input + '</li>');
+
+			});
 
 	
 });;
+
+
 
 
 
