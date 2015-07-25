@@ -15,6 +15,7 @@ body > h1 {
 	text-align: center;
 	color: white;
 	letter-spacing: 2px;
+	font-size:3em;
 
 }
 
@@ -55,11 +56,13 @@ ul > li {
 	background-color: white;
 	width:90%;
 	margin: .25em auto;
+	font-size: 1em;
 }
 
 ul > li > span {
 	float: right;
 	padding-right:1em;
+	font-size: 16px;
 
 }
 .trashspace {

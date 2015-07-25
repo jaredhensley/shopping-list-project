@@ -22,10 +22,10 @@ $(document).ready(function() {
 				$(this).closest("li").remove();
 			});
 
-			$('button').on('click', function() {
-
+			$('button').on('click', function(event) {
+				event.preventDefault();
 				var input = $("input[name='item_name']").val();
-				$('ul').append('<li>' + input + '</li>');
+				$('ul').append('<li>' + input + '<span>' + '<i class="fa fa-square-o fa-2x"></i>' + ' <i class="fa fa-trash-o trashspace fa-2x"></i>' + '</span>' + '</li>');
 
 			});
 
