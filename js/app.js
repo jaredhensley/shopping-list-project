@@ -17,7 +17,9 @@ $(document).ready(function() {
         }
 
         $(i).closest("li").toggleClass('strikethrough');
-      	
+      	$("#list").sortable({ // jQuery UI plugin for sortable lists
+					placeholder: "ui-sortable-placeholder" 
+    		});  
       });
 
 

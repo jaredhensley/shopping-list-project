@@ -62,15 +62,23 @@ ul > li {
 ul > li > span {
 	float: right;
 	padding-right:1em;
-	font-size: 16px;
+	font-size: 1em;
 
 }
 .trashspace {
 /* float:right; */
 
 }
-
  
+input {
+	border-radius:5px;
+
+}
+
+button {
+	border-radius:5px;
+
+}
 .strikethrough {
 	text-decoration: line-through;
 	background-color:transparent;
