@@ -57,13 +57,14 @@ ul > li {
 	width:90%;
 	margin: .25em auto;
 	font-size: 1em;
+	height: 2.3em;
 }
 
 ul > li > span {
 	float: right;
 	padding-right:1em;
 	font-size: .9em;
-	margin-top:2px;
+	margin-top:3px;
 
 }
 .trashspace {
