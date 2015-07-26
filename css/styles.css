@@ -62,7 +62,8 @@ ul > li {
 ul > li > span {
 	float: right;
 	padding-right:1em;
-	font-size: 1em;
+	font-size: .9em;
+	margin-top:2px;
 
 }
 .trashspace {
